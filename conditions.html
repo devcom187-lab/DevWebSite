@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Conditions d'utilisation - Dev</title>
+  <style>
+    /* Reset minimal */
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .section {
+      padding: 4rem 1rem;
+      max-width: 900px;
+      margin: 0 auto;
+      background-color: #fff;
+      box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+      border-radius: 6px;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      color: #214779;
+      text-align: center;
+      margin-bottom: 2.5rem;
+      font-weight: 700;
+      user-select: none;
+    }
+
+    .conditions__container {
+      display: grid;
+      row-gap: 1.8rem;
+    }
+
+    .conditions__text {
+      font-size: 1rem;
+      color: #444;
+      text-align: justify;
+      user-select: text;
+    }
+
+    @media (max-width: 600px) {
+      .section {
+        padding: 3rem 1rem;
+      }
+      .section-title {
+        font-size: 1.6rem;
+      }
+      .conditions__text {
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="section" id="conditions">
+    <h1 class="section-title">Conditions d'utilisation</h1>
+    <div class="conditions__container">
+      <p class="conditions__text">
+        En accédant à ce site, vous acceptez de respecter les conditions générales d’utilisation. Le contenu est protégé par les lois sur la propriété intellectuelle. Toute reproduction ou modification est interdite.
+      </p>
+      <p class="conditions__text">
+        Le site Dev et tous ses contenus sont la propriété exclusive de Dev, sauf mention contraire. Toute utilisation non autorisée pourra faire l’objet de poursuites.
+      </p>
+      <p class="conditions__text">
+        Dev s'efforce d'assurer l'exactitude des informations, sans garantie absolue. L'utilisation du site se fait sous votre seule responsabilité.
+      </p>
+      <p class="conditions__text">
+        Ce site peut recueillir des données anonymes à des fins statistiques. Aucune donnée personnelle n’est stockée sans consentement.
+      </p>
+    </div>
+  </section>
+</body>
+</html>
